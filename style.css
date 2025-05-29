@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FAFAFA;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+}
+
+#logo{
+    height: 30px;
+    width: auto;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: medium;
+    color: #020202;
+}
+
+button{
+    font-size: medium;
+    color: #fff;
+    background-color: #020202;
+    padding: 12px 30px;
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+/* Hero-section-styleing */
+#hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+
+h1{
+    font-size: 45px;
+    padding-bottom: 8px;
+    color: #020202;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 16px;
+    color: #1b1b1b;
+}
+
+#hero-image img{
+    width: 700px;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 24px;
+    color: #020202;
+
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.categories a{
+    text-decoration:none;
+    font-size: 16px;
+    color: #020202;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: 1px solid #020202;
+}
+
+#content-area{
+    padding: 24px 50px;
+    align-items: center;
+    margin: 16px;
+
+}
+
+.card{
+    display: inline-block;
+    width: 360px;
+    padding: 20px;
+}
+
+.box img{
+    width: 360px;
+    height: 220px;
+    border-radius: 12px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: #020202;
+    width: 360px;
+    padding-top: 16px;
+}
+
+.card a{
+    color: #020202;
+    font-size: 16px medium;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #020202;
+    color: #FAFAFA;
+    text-align: center;
+    height: 100px;
+}
+
